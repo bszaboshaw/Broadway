@@ -1,0 +1,91 @@
+
+
+body {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  font-family: Helvetica, 'sans-serif';
+}
+
+#header {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+.headernav a {
+    color: white;
+    text-decoration: underline;
+    list-style-type: none;
+    font-family: Helvetica, 'sans-serif';
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+  font-family: Helvetica, 'sans-serif';
+  font-size: 18px;
+  color: white;
+}
+
+.headernav li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+  font-family: Helvetica, 'sans-serif';
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-family: Helvetica, 'sans-serif';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h4.NewYorkDivider {
+  font-family: Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+.CompanyInfo p {
+  font-family: Helvetica, sans-serisf;
+  font size: 14px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+footer {
+  font-family: Helvetica, 'sans-serif';
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
+}
+
+p.copyright  {
+  text-align: left;
+  color: white;
+}
+
+nav ul li a {
+  font-size: 11px;
+  text-align: left;
+  color: white;
+}
+
+footernav a {
+  color: white;
+}
