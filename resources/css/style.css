@@ -65,6 +65,7 @@ h4.NewYorkDivider {
 }
 
 ul, li {
+  color: white;
   list-style-type: none;
 }
 
@@ -75,17 +76,27 @@ footer {
   text-align: left;
 }
 
-p.copyright  {
-  text-align: left;
-  color: white;
+p.copyright {
+    color: white;
+    float: left;
 }
 
-nav ul li a {
-  font-size: 11px;
-  text-align: left;
-  color: white;
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
 }
 
-footernav a {
-  color: white;
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
 }
